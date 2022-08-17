@@ -1,5 +1,6 @@
 /* This is to access the bookbuzz logo in the navbar */
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -10,11 +11,14 @@ body {
     line-height: 1.4;
     letter-spacing: .1px;
     color: #162127;
+    position: fixed;
+    left: 0px;
 }
 
 .navbar a {
     color: #dc3c31;
     text-decoration: none;
+    padding: 0px 0px 4px 0px;
 }
 
 .navbar a h1 {
@@ -29,7 +33,7 @@ body {
 }
 
 .navbar {
-    margin: 0px 105px;
+    margin: 0px 120px 0px 103px;
     height: 71px;
     display: flex;
     justify-content: space-between;
@@ -50,9 +54,18 @@ body {
     margin-bottom: 1px;
 }
 
+.sign_in_btn:hover {
+    background-color: white;
+    border-color: #8b9093;
+    color: #5c6468;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out
+}
+
 .sign_in_div {
     cursor: pointer;
 }
+
 
 /* this is for accesing the first(basically the part just below the navbar) */
 
@@ -73,7 +86,7 @@ body {
 }
 
 .first-right img {
-    margin-right: -27px;
+    margin-right: -12px;
     width: 750px;
     margin-top: -20px;
 }
