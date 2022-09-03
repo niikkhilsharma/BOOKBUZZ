@@ -12,8 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Oswald&family=Playfair+Display:wght@900&family=Roboto&display=swap"
         rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
 
+    <!-- From the bookbub website -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=PT+Serif:400,400i' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lora:400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Oswald:400,500,600,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+    <!-- From the bookbub website till here -->
     <title>BOOKBUZZ</title>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         style="position: absolute; width: 0; height: 0" aria-hidden="true" id="__SVG_SPRITE_NODE__">
@@ -719,27 +726,29 @@
 </head>
 
 <body>
-    <nav class="nav">
+    <div class="nav">
         <div class="navbar">
-            <a href="#" class="logo">
-                <h1>BookBuzz</h1>
-            </a>
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    <h1>BookBuzz</h1>
+                </a>
+            </div>
+
             <div class="sign_in_div">
-                <input class="sign_in_btn" type="button" value="Sign In">
+                <a href="#" class="sign_in_btn">
+                    <div>Sign In</div>
+                </a>
             </div>
         </div>
-    </nav>
+    </div>
     <hr class="hr">
-        <div class="first-set">
-            <div class="first">
-                <div class="first-left">
-                    <div class="first-left-heading">
-                        <h1>Amazing deals on bestselling books</h1>
-                    </div>
+    <div class="whole-container remove_whole_container">
+        <div class="first">
+            <div class="first-left">
+                <div class="first-left-container">
+                    <h1 class="first-left-heading">Amazing deals on bestselling books</h1>
+                    <h2 class="first-left-login-heading">Join for <span>FREE</span> to never miss a deal:</h2>
                     <div class="first-left-login">
-                        <div class="first-left-login-heading">
-                            <h2>Join for <span>FREE</span> to never miss a deal:</h2>
-                        </div>
                         <div class="first-left-login-wrapper">
 
                             <form action="#" id="first-left-login-form-email">
@@ -762,14 +771,74 @@
                             <div class="or-divider">
                                 <div class="or">or</div>
                             </div>
+                            <div class="google-login">
+                                <div class="google">
+                                    <div class="logo-container-google">
+                                        <img src="https://dzazw6ldmby07.cloudfront.net/assets/features/destination_signup/google_oauth_transparent-193f0ff29d1a126f2358e1b713d83dcc121f26d0d23b0f028fa75f25d6e3cea6.png"
+                                            class="google-logo" alt="Google Oauth Sign In">
+                                    </div>
+                                    <div class="google-text-container">Continue with Google</div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="first-right">
-                    <img src="welcome.jpeg" alt="">
+            </div>
+            <div class="first-right">
+                <img src="welcome.jpeg" alt="">
+            </div>
+        </div>
+        <div class="second-set">
+            <div class="second-set-left">
+                <img src="coffee-phone.webp" class="coffee-photo" alt="this is the image of a coffee and the phone">
+            </div>
+            <div class="second-set-right">
+                <div class="second-set-right-text">
+                    <h1>Begin each day with personalized recommendations.</h1>
+                    <p>Each day you'll receive a selection of discounted titles, handpicked to match your reading taste.
+                    </p>
                 </div>
             </div>
         </div>
+
+        <img src="right-arrow.webp" class="right-arrow" alt="this is the right arrow">
+
+
+        <div class="third-set">
+            <div class="third-set-left">
+                <div class="third-set-left-text">
+                    <h1>Discover new books & authors at great prices</h1>
+                    <p>with <span>discount up to 95% off</span> and free ebooks daily, you'll enjoy hours of reading for
+                        less.</p>
+                </div>
+            </div>
+            <div class="third-set-right">
+                <img src="ipad-library_2x.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- <footer>
+        <div class="footer">
+            <div class="footer-inside">
+                <div class="footer-container">
+                    <div class="footer-container-row" id="footer-container-row1">
+                        <div class="footer-header-and-line">
+                            <div class="footer-header">
+                                <div class="footer-heading">
+                                    <div class="footer-bookbuzz">
+                                        <a href="www.bookbuzz.social">BookBuzz</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-container-row" id="footer-container-row2"></div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    
 </body>
 
 </html>
