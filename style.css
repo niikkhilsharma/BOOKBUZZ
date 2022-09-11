@@ -121,6 +121,7 @@ body {
 
 .first-right {
     width: 50%;
+    overflow-x: hidden;
 }
 
 
