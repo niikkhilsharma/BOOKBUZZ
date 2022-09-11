@@ -1,0 +1,446 @@
+/* This is to access the bookbuzz logo in the navbar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: .1px;
+    color: #162127;
+    left: 0px;
+}
+
+.logo-container {
+    margin: 0px 0px 5px 0px;
+}
+
+.logo-container a {
+    color: #dc3c31;
+    text-decoration: none;
+}
+
+.navbar a h1 {
+    font-size: 1.8rem;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background: #f1eeea;
+    margin: 1px -8px 0px -8px;
+}
+
+.navbar {
+    margin: -9px 97px 0px 95px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1143px;
+}
+
+.whole-container {
+    display: flex;
+    padding-right: 15px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1470px;
+    padding-left: 15px;
+    margin-left: -8px;
+    margin-right: auto;
+}
+
+.sign_in_div {
+    border: 1px solid #b9bcbe;
+    width: 140px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.sign_in_div a {
+    text-decoration: none;
+    color: #5c6468;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1rem;
+    background: none;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_in_btn div {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    line-height: 1em;
+    margin-left: -1px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+.sign_in_btn:hover {
+    background-color: white;
+    border-color: #8b9093;
+    color: #5c6468;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out
+}
+
+/* this is for accesing the first(basically the part just below the navbar) */
+
+.first {
+    /* margin-left: 105.5px; */
+    display: flex;
+    margin-bottom: -90px;
+}
+
+.first-left-container {
+    width: 100%;
+    max-width: 570px;
+    margin-left: auto;
+    margin-top: 56px;
+}
+
+.first-left h1 {
+    font-family: Playfair Display, Lora, Georgia, serif;
+    font-weight: 800;
+    color: #162127;
+    font-size: 54px;
+    line-height: 4.05rem;
+}
+
+.first-left {
+    width: 50%;
+}
+
+.first-right {
+    width: 50%;
+}
+
+
+.first-right img {
+    margin-top: 36px;
+    margin-left: -48px;
+    width: 750px;
+}
+
+.first-left-login-heading {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4em;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.first-left-login-heading span {
+    color: #dc3c31;
+}
+
+.first-left-login-wrapper {
+    width: 500px;
+}
+
+#first-left-login-form-email input {
+    height: 62px;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #b9bcbe;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+/* This is used for settig the color in the 'enter you email address' just below 'join for free' */
+#first-left-login-form-email::placeholder {
+    color: rgb(202, 185, 185);
+}
+
+/* For accesing 'get started' red button inside the left-login form  */
+.get-started-wrapper {
+    height: 52px;
+    width: 132px;
+    background-color: #dc3c31;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.2rem;
+    top: 340.5px;
+    left: 469px;
+    border-radius: 3px;
+}
+
+.get-started-wrapper button {
+    background-color: #dc3c31;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1em;
+    padding: 15px 14px 15px 13px;
+}
+
+/* For accessing the svg icon in the red 'get started' button */
+.svg-icon.white {
+    fill: #fff;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.svg-icon {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.get-started-svg {
+    display: inline;
+    margin-left: 8px;
+    display: flex;
+}
+
+.get-started {
+    display: inline;
+}
+
+/* For or divider in the left side login from */
+.or-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.or {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* to access google login on the front page */
+.google {
+    border: 1px solid #b9bcbe;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+}
+
+.google-logo {
+    height: 60px;
+    padding: 3px;
+}
+
+.logo-container-google {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    height: inherit;
+    width: 42px;
+    height: 60px;
+}
+
+.google-text-container {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #5c6468;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+/* this is for the second page or second-set */
+.second-set {
+    display: flex;
+    align-items: center;
+}
+
+/* this is for the coffee image on the left side */
+.coffee-photo {
+    width: 90%;
+}
+
+.second-set-left {
+    width: 50%;
+}
+
+/* to access the right side of the second set */
+.second-set-right-text {
+    margin-right: 180px;
+    width: 100%;
+    max-width: 570px;
+}
+
+.second-set-right-text h1 {
+    font-family: Playfair Display, Lora, Georgia, serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #162127;
+    line-height: 1.2em;
+}
+
+.second-set-right-text p {
+    font-family: Lora, Georgia, Times, serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.second-set-right {
+    width: 50%;
+}
+
+/* This is to access the right arrow before 3rd set */
+.right-arrow {
+    width: 10%;
+    z-index: 1;
+    margin: -35px auto -80px auto;
+}
+
+/* Utility Classes  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+sub,
+sup,
+small {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+/* these are the properties to be removed at the end when the website is made */
+/* these are those properties which are written in copy and are meant to be removed */
+.remove_whole_container {
+    width: 1351px;
+    height: 4400.73px;
+}
+
+/* This is to access the third-set with the ipad library image */
+.third-set {
+    display: flex;
+    align-items: center;
+}
+
+.third-set-left {
+    width: 50%;
+}
+
+.third-set-left-text {
+    margin-left: auto;
+    width: 100%;
+    max-width: 570px;
+}
+
+.third-set-left-text h1 {
+    font-family: Playfair Display, Lora, Georgia, serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #162127;
+    line-height: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.third-set-left-text p {
+    font-family: Lora, Georgia, Times, serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 40px;
+}
+
+.third-set-left-text p span {
+    font-family: Lora, Georgia, Times, serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.third-set-right {
+    width: 50%;
+}
+
+.third-set-right img {
+    width: 90%;
+}
+
+/* This is to access the footer */
+/* .footer-inside {
+    height: 525px;
+    background-color: #162127;
+    padding-top: 21px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.footer-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container-row1 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-container-row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.footer-heading {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bookbuzz {
+    padding-right: 5px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+.footer-bookbuzz a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+} */
