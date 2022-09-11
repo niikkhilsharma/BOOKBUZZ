@@ -1,0 +1,13 @@
+body{
+    color:red;
+}
+.center{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fuck{
+    text-align: center;
+}
